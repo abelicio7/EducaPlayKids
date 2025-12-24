@@ -75,13 +75,16 @@ const OfferSection = () => {
               </div>
               
               <div className="w-full">
-                <Button 
-                  variant="cta" 
-                  size="xl" 
-                  onClick={scrollToTop}
-                >
-                  <span>Quero acesso imediato ao EDUCA PLAY KIDS</span>
-                </Button>
+              <Button
+  variant="cta"
+  size="xl"
+  onClick={() => {
+    window.location.href = "https://checkout-educaplaykids.vercel.app/";
+  }}
+>
+  <span>Quero acesso imediato ao EDUCA PLAY KIDS</span>
+</Button>
+
               </div>
               
               <div className="flex items-center justify-center gap-2 mt-4">
