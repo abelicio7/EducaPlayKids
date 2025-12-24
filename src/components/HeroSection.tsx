@@ -53,15 +53,15 @@ const HeroSection = () => {
           </p>
           
           {/* CTA Button */}
-          <div className="animate-fade-up" style={{ animationDelay: '0.4s' }}>
+          <div className="animate-fade-up w-full max-w-md mx-auto px-4 md:px-0" style={{ animationDelay: '0.4s' }}>
             <Button 
               variant="hero" 
               size="xl"
               onClick={scrollToOffer}
               className="group"
             >
-              <Heart className="w-6 h-6 mr-2 group-hover:scale-110 transition-transform" />
-              Quero ajudar meu filho a aprender brincando
+              <Heart className="w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform" />
+              <span>Quero ajudar meu filho a aprender brincando</span>
             </Button>
           </div>
           

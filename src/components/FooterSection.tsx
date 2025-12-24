@@ -21,15 +21,17 @@ const FooterSection = () => {
             Mais momentos em família.
           </p>
           
-          <Button 
-            variant="hero" 
-            size="xl"
-            onClick={scrollToOffer}
-            className="bg-primary text-primary-foreground hover:bg-primary/90"
-          >
-            <Heart className="w-5 h-5 mr-2" />
-            Começar agora por apenas 149 MZN
-          </Button>
+          <div className="w-full max-w-md mx-auto px-4 md:px-0">
+            <Button 
+              variant="hero" 
+              size="xl"
+              onClick={scrollToOffer}
+              className="bg-primary text-primary-foreground hover:bg-primary/90"
+            >
+              <Heart className="w-5 h-5 flex-shrink-0" />
+              <span>Começar agora por apenas 149 MZN</span>
+            </Button>
+          </div>
         </div>
       </div>
       
