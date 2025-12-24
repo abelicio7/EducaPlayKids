@@ -74,14 +74,15 @@ const OfferSection = () => {
                 ))}
               </div>
               
-              <Button 
-                variant="cta" 
-                size="xl" 
-                className="w-full text-xl"
-                onClick={scrollToTop}
-              >
-                Quero acesso imediato ao EDUCA PLAY KIDS
-              </Button>
+              <div className="w-full">
+                <Button 
+                  variant="cta" 
+                  size="xl" 
+                  onClick={scrollToTop}
+                >
+                  <span>Quero acesso imediato ao EDUCA PLAY KIDS</span>
+                </Button>
+              </div>
               
               <div className="flex items-center justify-center gap-2 mt-4">
                 <span className="text-2xl">🔒</span>
