@@ -29,7 +29,7 @@ const FooterSection = () => {
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
               <Heart className="w-5 h-5 flex-shrink-0" />
-              <span>Começar agora por apenas 149 MZN</span>
+              <span>Começar agora por apenas 147 MZN</span>
             </Button>
           </div>
         </div>
