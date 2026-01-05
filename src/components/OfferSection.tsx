@@ -49,7 +49,7 @@ const OfferSection = () => {
                 
                 <div className="flex items-baseline justify-center gap-1">
                   <span className="text-2xl text-muted-foreground">Apenas</span>
-                  <span className="text-6xl md:text-7xl font-fredoka font-bold text-accent">149</span>
+                  <span className="text-6xl md:text-7xl font-fredoka font-bold text-accent">147</span>
                   <span className="text-2xl text-muted-foreground">MZN</span>
                 </div>
                 
