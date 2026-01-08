@@ -8,10 +8,12 @@ import OfferSection from "@/components/OfferSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
+import PurchaseNotification from "@/components/PurchaseNotification";
 
 const Index = () => {
   return (
     <main className="overflow-hidden">
+      <PurchaseNotification />
       <HeroSection />
       <ProblemSection />
       <SolutionSection />
