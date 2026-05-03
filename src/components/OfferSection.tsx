@@ -79,7 +79,7 @@ const OfferSection = () => {
   variant="cta"
   size="xl"
   onClick={() => {
-    window.location.href = "https://checkout-educaplaykids.vercel.app/";
+    window.location.href = "https://www.ensinapay.com/checkout/e6a57d27-f891-478d-8c32-f708303a6560";
   }}
 >
   <span>Quero acesso imediato ao EDUCA PLAY KIDS</span>

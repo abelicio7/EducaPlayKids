@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Heart, Sparkles } from "lucide-react";
 
 const FooterSection = () => {
-  const scrollToOffer = () => {
-    document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
+  const goToCheckout = () => {
+    window.location.href = "https://www.ensinapay.com/checkout/e6a57d27-f891-478d-8c32-f708303a6560";
   };
 
   return (
@@ -25,7 +25,7 @@ const FooterSection = () => {
             <Button 
               variant="hero" 
               size="xl"
-              onClick={scrollToOffer}
+              onClick={goToCheckout}
               className="bg-primary text-primary-foreground hover:bg-primary/90"
             >
               <Heart className="w-5 h-5 flex-shrink-0" />
