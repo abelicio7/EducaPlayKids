@@ -3,8 +3,8 @@ import { Smartphone, Heart, BookOpen } from "lucide-react";
 import logoEducaplay from "@/assets/logo-educaplay.png";
 
 const HeroSection = () => {
-  const scrollToOffer = () => {
-    document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' });
+  const goToCheckout = () => {
+    window.location.href = "https://www.ensinapay.com/checkout/e6a57d27-f891-478d-8c32-f708303a6560";
   };
 
   return (
